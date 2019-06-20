@@ -1,4 +1,4 @@
-
+@import "../assets/scss/rem";
 .normal {
   font-family: Georgia, sans-serif;
   margin-top: 3em;
@@ -6,7 +6,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: px2rem(36);
   font-weight: normal;
   letter-spacing: -1px;
 }

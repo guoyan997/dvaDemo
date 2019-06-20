@@ -9,7 +9,7 @@ const Example = (props) => {
     desadd()
   }
   return (
-    <div>
+      <div>
       <h1>名字是： {name}</h1>
       <h1>年龄是： {age}</h1>
       <h1>{count}</h1>

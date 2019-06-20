@@ -12,7 +12,6 @@ const ExamplePage = ({location, dispatch, example}) => {
     age,
     count,
     add() {
-      debugger
       dispatch({
         type: 'example/add',
         payload: {
@@ -35,4 +34,5 @@ const ExamplePage = ({location, dispatch, example}) => {
     </div>
   )
 }
+// 将example这个state放到ExamplePage组件props中的example里
 export default connect(({example}) => ({example}))(ExamplePage);
